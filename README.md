@@ -2,11 +2,9 @@
 
 Relevant content for VSCode `settings.json` file for the [<img src="https://user-images.githubusercontent.com/29161635/93551441-de870a00-f93b-11ea-82a3-48c360d2f732.png" alt="G-Code extension icon" height="15em"> G-Code](https://github.com/scottmwyant/vscode-gcode) extension, aimed at providing necessary intelliSense in viewing Gcode files.
 
-## G-Code Extension Settings
+The key `"gcode.definitions"` includes all the G code definitions for this extension. However, before introducing this key and its value block, the reason why this extension is chosen for G code intelliSense is shown below.
 
-The key `"gcode.definitions"` includes all the G code definitions for [<img src="https://user-images.githubusercontent.com/29161635/93551441-de870a00-f93b-11ea-82a3-48c360d2f732.png" alt="G-Code extension icon" height="15em"> G-Code](https://github.com/scottmwyant/vscode-gcode) extension. However, before introducing this key and its value block, the reason why this extension is chosen for G code intelliSense is shown below.
-
-### Explanation on G Code Extensions
+## Explanation on G Code Extensions
 
 Having an intelliSense extension is obviously a great help when reading and writing G code. By hovering the mouse cursor onto the G code commands, explanations, usages and other notes can appear in a pop-up mini window for your own reference.
 
@@ -26,7 +24,7 @@ Admittedly, customization from scratch is a lot of work. As a result, the offici
 
 The [`settings.json`](.vscode/settings.json) file will be continually updated when more terms are looked up in official documentation.
 
-### Notes on Maintaining `"gcode.definitions"`
+## Notes on Maintaining `"gcode.definitions"`
 
 `"gcode.definitions"` is a huge dictionary JSON block with G code commands as keys, and explanation as values. Value blocks support partial Markdown syntax like code blocks, etc.
 
