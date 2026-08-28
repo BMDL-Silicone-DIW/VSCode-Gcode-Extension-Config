@@ -24,7 +24,7 @@ Since Klipper and Marlin G code have some minor differences, [<img src="https://
 
 Admittedly, customization from scratch is a lot of work. As a result, the official repo for [<img src="https://user-images.githubusercontent.com/29161635/93551441-de870a00-f93b-11ea-82a3-48c360d2f732.png" alt="G-Code extension icon" height="15em"> G-Code](https://github.com/scottmwyant/vscode-gcode) has provided with a default version of `"gcode.definitions"`, shown in <https://github.com/scottmwyant/vscode-gcode/pull/4#issuecomment-2423739851>.
 
-The [`settings.json`](./settings.json) file will be continually updated when more terms are looked up in official documentation.
+The [`settings.json`](.vscode/settings.json) file will be continually updated when more terms are looked up in official documentation.
 
 ### Notes on Maintaining `"gcode.definitions"`
 
