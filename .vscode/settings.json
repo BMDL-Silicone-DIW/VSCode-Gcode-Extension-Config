@@ -4,7 +4,7 @@
         "G1": "FEED: Linear movement.\n\nUsage: `G1 X<pos> Y<pos> Z<pos> E<pos> F<rate>`\n\n`X`, `Y` and `Z` specify the destination coordinates.\n\n`F` specifies the feed rate (speed, current units per minute) of the movement.\n\nFor 3D printing, `E` specifies the amount of filament to extrude.",
         "G2": "FEED: Circular interpolation, clockwise",
         "G3": "FEED: Circular interpolation, counter-clockwise",
-        "G4": "DWELL: Pause the planner",
+        "G4": "DWELL: Pause the command queue.\n\nUsage: `G4 P<ms> S<sec>`\n\n`P` specifies the dwell time in milliseconds.\n\n`S` specifies the dwell time in seconds.\n\nIn Marlin, `S` takes precedence over `P` if both are specified.\n\nKlipper and standard CNC do not support `S`, only `P` are supported.",
         "G5": "BÉZIER CUBIC SPLINE: Cubic B-spline with XYZE destination and IJPQ offsets",
         "G10": "RETRACT: Retract the filament",
         "G11": "RECOVER: Recover the filament with firmware-based retract.",
